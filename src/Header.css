@@ -1,0 +1,33 @@
+.gallery-container{
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    position: relative;
+    padding: 20px 0;
+}
+
+.gallery-track{
+    display: flex;
+    gap: 10px;
+    animation: scrollGallery 20s linear infinite;
+}
+
+.gallery-item{
+    min-width: 200px;
+    flex-shrink: 0;
+}
+
+.gallery-item img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes scrollGallery {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

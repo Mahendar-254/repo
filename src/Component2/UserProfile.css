@@ -1,0 +1,105 @@
+/* UserProfile.css */
+
+
+ 
+
+/* Profile Image Styling */
+
+.profile-avatar {
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+
+  /* Followers and Following Link Styling */
+
+  .followers-following-link {
+
+    font-family: 'Arial', sans-serif;
+
+    color: #4a90e2;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: color 0.3s ease;
+
+  }
+
+
+
+  .followers-following-link:hover {
+
+    color: #003366;
+
+  }
+
+
+
+  /* Edit Profile Button Styling */
+
+  .edit-profile-button {
+
+    font-weight: 600;
+
+    font-size: 1.1rem;
+
+    padding: 12px;
+
+    background-color: #ff5722;
+
+    border: none;
+
+    transition: background-color 0.3s ease;
+
+  }
+
+
+
+  .edit-profile-button:hover {
+
+    background-color: #e64a19;
+
+  }
+
+
+
+  /* Board Cards Styling */
+
+  .ant-card-meta-title {
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+  }
+
+
+
+  .ant-card-meta-description {
+
+    font-size: 0.9rem;
+
+    color: #777;
+
+  }
+
+
+
+  /* Grid Layout for Boards */
+
+  .d-flex {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+  }
+

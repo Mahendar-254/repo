@@ -1,0 +1,173 @@
+General card styles
+
+.card-container {
+
+    margin: 10px;
+
+  }
+
+
+
+  .card2 {
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+  }
+
+
+
+  .card2:hover {
+
+    transform: scale(1.05);
+
+  }
+
+
+
+  .card-img2 {
+
+    width: 100%;  
+
+    object-fit: cover;  
+
+    height: 200px;  
+
+    border-bottom: 1px solid #ddd;
+
+  }
+
+
+
+  .card-body2 {
+
+    padding: 16px;
+
+  }
+
+
+
+  .card-body2 .ant-typography {
+
+    font-weight: bold;
+
+  }
+
+
+
+  .card-actions2 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 12px;
+
+  }
+
+
+
+  .action-btn2 {
+
+    background: none;
+
+    border: none;
+
+    color: #007bff;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease;
+
+  }
+
+
+
+  .action-btn2:hover {
+
+    color: #0056b3;
+
+  }
+
+
+
+  .board-detail1 {
+
+    margin-top: 30px;
+
+  }
+
+
+
+  .board-detail1 .card {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+  }
+
+
+
+  .board-detail1 .card-img {
+
+    max-width: 100%;  
+
+    height: 300px;  
+
+    object-fit: contain;  
+
+    margin-bottom: 20px;  
+
+  }
+
+
+
+.board-detail1 .card-body {
+
+    padding: 20px;
+
+  }
+
+
+
+  .board-detail1 .btn-primary {
+
+    margin-top: 20px;
+
+    padding: 10px 15px;
+
+    background-color: #007bff;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+  }
+
+
+
+  .board-detail1 .btn-primary:hover {
+
+    background-color: #0056b3;
+
+  }

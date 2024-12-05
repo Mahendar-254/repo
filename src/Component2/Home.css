@@ -1,0 +1,186 @@
+/* Home.css */
+
+
+ 
+
+/* Custom card styling */
+
+.custom-card {
+
+    border: none;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+
+
+
+  .custom-card:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+  }
+
+
+
+  /* Styling for the image */
+
+  .custom-card-img {
+
+    height: 250px;
+
+    object-fit: cover;
+
+    transition: transform 0.3s ease;
+
+  }
+
+
+
+  .custom-card-img:hover {
+
+    transform: scale(1.1);
+
+  }
+
+
+
+  /* Card body title and text styling */
+
+  .card-title {
+
+    font-size: 1.1rem;
+
+    font-weight: 600;
+
+    color: #333;
+
+  }
+
+
+
+  .card-text {
+
+    font-size: 0.9rem;
+
+    color: #666;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+
+  }
+
+
+
+  /* Add some space between cards */
+
+  .container {
+
+    margin-top: 30px;
+
+  }
+
+
+
+  /* Ensure the cards align properly in a grid */
+
+  .row {
+
+    justify-content: center;
+
+  }
+
+
+
+  /* Responsive font size for small devices */
+
+  @media (max-width: 576px) {
+
+    .custom-card-img {
+
+      height: 200px;
+
+    }
+
+  }
+
+
+
+  .auth-container {
+
+    background-color: #f8f8f8;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+
+
+  .auth-form {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+
+  .ant-btn {
+
+    font-weight: bold;
+
+  }
+
+
+
+  .ant-form-item-label {
+
+    font-weight: bold;
+
+  }
+
+
+
+  .ant-input {
+
+    border-radius: 5px;
+
+  }
+
+
+
+  .ant-input-password {
+
+    border-radius: 5px;
+
+  }
+
+
+
+  .ant-btn-primary {
+
+    border-radius: 5px;
+
+  }

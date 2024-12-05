@@ -1,0 +1,274 @@
+.App {
+
+  text-align: center;
+
+}
+
+
+ 
+
+.App-logo {
+
+  height: 40vmin;
+
+  pointer-events: none;
+
+}
+
+
+ 
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .App-logo {
+
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+
+}
+
+
+ 
+
+.App-header {
+
+  background-color: #282c34;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: calc(10px + 2vmin);
+
+  color: white;
+
+}
+
+
+ 
+
+.App-link {
+
+  color: #61dafb;
+
+}
+
+
+ 
+
+@keyframes App-logo-spin {
+
+  from {
+
+    transform: rotate(0deg);
+
+  }
+
+  to {
+
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
+
+ 
+
+.fixed-size {
+
+  height: 180px;
+
+  object-fit: cover;
+
+}
+
+
+ 
+
+.logo-container{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+ 
+
+.card-container{
+
+  box-shadow: 0px 10px 10px 0px;
+
+}
+
+
+ 
+
+.pin-card{
+
+  width: 300px;
+
+  height : 500px;
+
+  border: 2px solid blue;
+
+  transition: border 2s;
+
+
+
+
+ 
+
+}
+
+
+ 
+
+/* .pin-card:hover{
+
+  transform: scale(1.2);
+
+  transition: transform 2s;
+
+  animation: pinCardAnimation 2s;
+
+} */
+
+
+ 
+
+@keyframes pinCardAnimation {
+
+  from {background-color: white;}
+
+  to {background-color: skyblue;}
+
+}
+
+
+ 
+
+.pin-img-container{
+
+  padding: 3%;
+
+
+
+}
+
+
+ 
+
+.pin-image{
+
+  max-width: 100%;
+
+  height: fit-content;
+
+}
+
+
+ 
+
+.main-block{
+
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+ 
+
+.find-friends {
+
+  padding: 20px;
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+}
+
+
+ 
+
+.ant-btn {
+
+  margin-left: 10px;
+
+}
+
+
+ 
+
+.ant-list-item-meta-title {
+
+  font-weight: bold;
+
+}
+
+
+ 
+
+.ant-list-item {
+
+  margin-bottom: 20px;
+
+}
+
+
+ 
+
+.ant-avatar {
+
+  background-color: #87d068;
+
+}
+
+
+ 
+
+.back-Image {
+
+  /* background-image: url("https://th.bing.com/th/id/OIP.U4e1mELSg9X0lRv90nL-ZgHaE8?w=296&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7"); */
+
+  background-image: linear-gradient(to bottom, rgb(226, 43, 55), rgb(202, 54, 54), rgb(232, 97, 97));
+
+}
+
+
+ 
+
+/* .login-div{
+
+  background-color: white;
+
+} */
+
+
+
+ 
+
+.alerting{
+
+  animation: fadeInUp 2s ease-in-out;
+
+}

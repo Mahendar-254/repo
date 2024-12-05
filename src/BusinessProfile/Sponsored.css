@@ -1,0 +1,168 @@
+/* Global styles */
+
+/* body {
+
+  font-family: 'Arial', sans-serif;
+
+} */
+
+
+ 
+
+.card-container5 {
+
+    margin-bottom: 20px;
+  
+  }
+  
+  
+   
+  
+  .card5 {
+  
+    background-color: white;
+  
+    border-radius: 8px;
+  
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+    overflow: hidden;
+  
+    transition: transform 0.2s;
+  
+  }
+  
+  
+   
+  
+  .card5:hover {
+  
+    transform: translateY(-5px);
+  
+  }
+  
+  
+   
+  
+  .card-img5 {
+  
+    width: 100%;
+  
+    height: auto;
+  
+    object-fit: cover;
+  
+  }
+  
+  
+   
+  
+  .card-body5 {
+  
+    padding: 16px;
+  
+  }
+  
+  
+   
+  
+  .card-actions5 {
+  
+    margin-top: 10px;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  
+   
+  
+  .action-btn5 {
+  
+    background-color: #f0f0f0;
+  
+    border: 1px solid #ddd;
+  
+    padding: 6px 12px;
+  
+    font-size: 14px;
+  
+    border-radius: 4px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 5px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.3s;
+  
+  }
+  
+  
+   
+  
+  .action-btn5:hover {
+  
+    background-color: #e6e6e6;
+  
+  }
+  
+  
+   
+  
+  .card-body5 p {
+  
+    font-size: 14px;
+  
+    color: #888;
+  
+  }
+  
+  
+   
+  
+  .card-body5 .ant-typography5 {
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+  }
+  
+  
+   
+  
+  .ant-typography5 {
+  
+    color: #333;
+  
+  }
+  
+  
+   
+  
+  /* Spinner styles */
+  
+  .text-center5 {
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    height: 100vh;
+  
+  }
+  
+  
+   
+  
+  /* Optional: Add any other styles you prefer */
+  
+  
